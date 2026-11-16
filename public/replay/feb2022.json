@@ -1,0 +1,1233 @@
+{
+  "schemaVersion": "1.0.0",
+  "_comment": "Real NASA OMNI2 hourly observations and HelioNet model forecasts for Feb 2022 storm (illustrative replay). No invented values.",
+  "event_id": "feb2022",
+  "name": "Feb 2022 storm (illustrative replay)",
+  "label": "Real data, model forecast",
+  "rows": [
+    {
+      "t": 0,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": 1.0,
+        "vsw": 468.0,
+        "bz": 2.7
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0808,
+        "pGeo": 0.9786,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 1,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": 1.0,
+        "vsw": 476.0,
+        "bz": 3.4
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0314,
+        "pGeo": 0.9913,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 2,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": 6.0,
+        "vsw": 471.0,
+        "bz": 2.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.019,
+        "pGeo": 0.9958,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 3,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 2.7,
+        "dst": 4.0,
+        "vsw": 469.0,
+        "bz": 8.7
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.005,
+        "pGeo": 0.889,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 4,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 2.7,
+        "dst": 9.0,
+        "vsw": 465.0,
+        "bz": 5.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0042,
+        "pGeo": 0.7887,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 5,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 2.7,
+        "dst": 8.0,
+        "vsw": 458.0,
+        "bz": 6.1
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0038,
+        "pGeo": 0.6988,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 6,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 0.7,
+        "dst": 7.0,
+        "vsw": 447.0,
+        "bz": 8.3
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0037,
+        "pGeo": 0.5927,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 7,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 0.7,
+        "dst": 9.0,
+        "vsw": 451.0,
+        "bz": 6.6
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.004,
+        "pGeo": 0.5673,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 8,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 0.7,
+        "dst": 11.0,
+        "vsw": 454.0,
+        "bz": 6.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0049,
+        "pGeo": 0.5657,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 9,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 0.3,
+        "dst": 10.0,
+        "vsw": 452.0,
+        "bz": 4.6
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0056,
+        "pGeo": 0.4749,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 10,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 0.3,
+        "dst": 8.0,
+        "vsw": 466.0,
+        "bz": 1.1
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0059,
+        "pGeo": 0.4207,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 11,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 0.3,
+        "dst": 7.0,
+        "vsw": 456.0,
+        "bz": 2.3
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.007,
+        "pGeo": 0.4333,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 12,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.7,
+        "dst": 9.0,
+        "vsw": 448.0,
+        "bz": 2.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0079,
+        "pGeo": 0.5536,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 13,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.7,
+        "dst": 7.0,
+        "vsw": 445.0,
+        "bz": 2.5
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0078,
+        "pGeo": 0.541,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 14,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.7,
+        "dst": 8.0,
+        "vsw": 443.0,
+        "bz": -1.4
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0074,
+        "pGeo": 0.6084,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 15,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": 3.0,
+        "vsw": 428.0,
+        "bz": -6.1
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0119,
+        "pGeo": 0.9221,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 16,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": -5.0,
+        "vsw": 416.0,
+        "bz": -3.5
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0121,
+        "pGeo": 0.7583,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 17,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": -10.0,
+        "vsw": 407.0,
+        "bz": 5.6
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0064,
+        "pGeo": 0.4919,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 18,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.7,
+        "dst": -1.0,
+        "vsw": 395.0,
+        "bz": 4.6
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0057,
+        "pGeo": 0.3117,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 19,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.7,
+        "dst": 2.0,
+        "vsw": 401.0,
+        "bz": 4.9
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0062,
+        "pGeo": 0.2908,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 20,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.7,
+        "dst": 2.0,
+        "vsw": 407.0,
+        "bz": 3.4
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0079,
+        "pGeo": 0.1243,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 21,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.3,
+        "dst": 6.0,
+        "vsw": 412.0,
+        "bz": 4.5
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0108,
+        "pGeo": 0.1483,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 22,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.3,
+        "dst": 2.0,
+        "vsw": 410.0,
+        "bz": 6.7
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0145,
+        "pGeo": 0.3512,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 23,
+      "obs": {
+        "xray": 2.075e-06,
+        "p10": 0.2,
+        "kp": 1.3,
+        "dst": 6.0,
+        "vsw": 381.0,
+        "bz": 3.3
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0079,
+        "pGeo": 0.3238,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 24,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 2.0,
+        "dst": 6.0,
+        "vsw": 441.0,
+        "bz": 3.7
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0085,
+        "pGeo": 0.7585,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 25,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 2.0,
+        "dst": 4.0,
+        "vsw": 474.0,
+        "bz": 4.1
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0084,
+        "pGeo": 0.8414,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 26,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 2.0,
+        "dst": 3.0,
+        "vsw": 495.0,
+        "bz": -1.0
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0083,
+        "pGeo": 0.9406,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 27,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 4.3,
+        "dst": 0.0,
+        "vsw": 504.0,
+        "bz": -0.9
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.1853,
+        "pGeo": 0.9987,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 28,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 4.3,
+        "dst": -1.0,
+        "vsw": 480.0,
+        "bz": -3.9
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.2404,
+        "pGeo": 0.9994,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 29,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 4.3,
+        "dst": -7.0,
+        "vsw": 487.0,
+        "bz": -6.7
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.2189,
+        "pGeo": 0.9996,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 30,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 5.0,
+        "dst": -15.0,
+        "vsw": 473.0,
+        "bz": -9.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.3167,
+        "pGeo": 0.9998,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 31,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 5.0,
+        "dst": -20.0,
+        "vsw": 505.0,
+        "bz": -11.3
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.3497,
+        "pGeo": 0.9998,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 32,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 5.0,
+        "dst": -35.0,
+        "vsw": 483.0,
+        "bz": -17.5
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.3994,
+        "pGeo": 0.9998,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 33,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 5.3,
+        "dst": -54.0,
+        "vsw": 493.0,
+        "bz": -17.9
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.4454,
+        "pGeo": 0.9998,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 34,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 5.3,
+        "dst": -66.0,
+        "vsw": 511.0,
+        "bz": -13.6
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.4251,
+        "pGeo": 0.9997,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 35,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 5.3,
+        "dst": -63.0,
+        "vsw": 500.0,
+        "bz": -4.6
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.2927,
+        "pGeo": 0.9995,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 36,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -46.0,
+        "vsw": 510.0,
+        "bz": 5.5
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0193,
+        "pGeo": 0.9791,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 37,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -37.0,
+        "vsw": 530.0,
+        "bz": -3.0
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0131,
+        "pGeo": 0.9556,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 38,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -49.0,
+        "vsw": 573.0,
+        "bz": -3.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0068,
+        "pGeo": 0.1627,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 39,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 3.0,
+        "dst": -48.0,
+        "vsw": 566.0,
+        "bz": -2.5
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0038,
+        "pGeo": 0.0211,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 40,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 3.0,
+        "dst": -42.0,
+        "vsw": 544.0,
+        "bz": -0.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0035,
+        "pGeo": 0.0163,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 41,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 3.0,
+        "dst": -32.0,
+        "vsw": 536.0,
+        "bz": -0.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0027,
+        "pGeo": 0.0389,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 42,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 3.0,
+        "dst": -26.0,
+        "vsw": 538.0,
+        "bz": -0.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.002,
+        "pGeo": 0.0399,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 43,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 3.0,
+        "dst": -21.0,
+        "vsw": 536.0,
+        "bz": -0.3
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0017,
+        "pGeo": 0.0353,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 44,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 3.0,
+        "dst": -14.0,
+        "vsw": 527.0,
+        "bz": 0.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0019,
+        "pGeo": 0.0476,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 45,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 2.7,
+        "dst": -17.0,
+        "vsw": 521.0,
+        "bz": -0.6
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0025,
+        "pGeo": 0.0536,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 46,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 2.7,
+        "dst": -15.0,
+        "vsw": 525.0,
+        "bz": 1.0
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0026,
+        "pGeo": 0.0878,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 47,
+      "obs": {
+        "xray": 2.0483333333333338e-06,
+        "p10": 0.2,
+        "kp": 2.7,
+        "dst": -7.0,
+        "vsw": 531.0,
+        "bz": 2.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0031,
+        "pGeo": 0.2637,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 48,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": 4.0,
+        "vsw": 578.0,
+        "bz": -1.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0062,
+        "pGeo": 0.9475,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 49,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": 1.0,
+        "vsw": 569.0,
+        "bz": -1.4
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0084,
+        "pGeo": 0.9838,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 50,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -4.0,
+        "vsw": 546.0,
+        "bz": -1.9
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0065,
+        "pGeo": 0.9727,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 51,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -7.0,
+        "vsw": 546.0,
+        "bz": -0.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0059,
+        "pGeo": 0.9635,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 52,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -13.0,
+        "vsw": 559.0,
+        "bz": -2.1
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0046,
+        "pGeo": 0.9419,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 53,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -19.0,
+        "vsw": 555.0,
+        "bz": -4.3
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.008,
+        "pGeo": 0.9875,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 54,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": -20.0,
+        "vsw": 553.0,
+        "bz": -5.4
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0141,
+        "pGeo": 0.9948,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 55,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": -22.0,
+        "vsw": 542.0,
+        "bz": -6.4
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0156,
+        "pGeo": 0.9961,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 56,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": -24.0,
+        "vsw": 524.0,
+        "bz": -7.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0128,
+        "pGeo": 0.9965,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 57,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": -38.0,
+        "vsw": 514.0,
+        "bz": -9.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0153,
+        "pGeo": 0.9974,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 58,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": -52.0,
+        "vsw": 507.0,
+        "bz": -8.4
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.01,
+        "pGeo": 0.9927,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 59,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 3.7,
+        "dst": -51.0,
+        "vsw": 515.0,
+        "bz": -8.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0077,
+        "pGeo": 0.9879,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 60,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -51.0,
+        "vsw": 509.0,
+        "bz": -6.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.005,
+        "pGeo": 0.9793,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 61,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -51.0,
+        "vsw": 509.0,
+        "bz": -7.3
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0042,
+        "pGeo": 0.9825,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 62,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -56.0,
+        "vsw": 509.0,
+        "bz": -5.9
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0027,
+        "pGeo": 0.9599,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 63,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 5.3,
+        "dst": -50.0,
+        "vsw": 496.0,
+        "bz": -4.0
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0051,
+        "pGeo": 0.9913,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 64,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 5.3,
+        "dst": -49.0,
+        "vsw": 495.0,
+        "bz": -4.6
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0039,
+        "pGeo": 0.9886,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 65,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 5.3,
+        "dst": -47.0,
+        "vsw": 494.0,
+        "bz": -9.2
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0067,
+        "pGeo": 0.9951,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 66,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 5.0,
+        "dst": -45.0,
+        "vsw": 491.0,
+        "bz": -9.3
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0047,
+        "pGeo": 0.9905,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 67,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 5.0,
+        "dst": -55.0,
+        "vsw": 508.0,
+        "bz": -7.7
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0044,
+        "pGeo": 0.987,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 68,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 5.0,
+        "dst": -62.0,
+        "vsw": 489.0,
+        "bz": -8.0
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0046,
+        "pGeo": 0.9842,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 69,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -60.0,
+        "vsw": 485.0,
+        "bz": 0.0
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0023,
+        "pGeo": 0.805,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 70,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -57.0,
+        "vsw": 474.0,
+        "bz": -1.0
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0023,
+        "pGeo": 0.7283,
+        "leadH": 24.0
+      }
+    },
+    {
+      "t": 71,
+      "obs": {
+        "xray": 2.1000000000000002e-06,
+        "p10": 0.2,
+        "kp": 4.0,
+        "dst": -49.0,
+        "vsw": 460.0,
+        "bz": -1.8
+      },
+      "forecast": {
+        "pFlare": null,
+        "pProton": 0.0023,
+        "pGeo": 0.6337,
+        "leadH": 24.0
+      }
+    }
+  ]
+}

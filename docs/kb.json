@@ -1,0 +1,37 @@
+[
+  {
+    "id": "noaa-r-scale",
+    "title": "NOAA Radio Blackout Scale (R-scale)",
+    "summary": "NOAA classifies solar radio blackouts on a scale of R1 to R5. R1 (minor) corresponds to X-ray flux >= 1e-5 W/m² (M1-class flare). R5 (extreme) corresponds to X-ray flux >= 2e-3 W/m² (X20+ flare).",
+    "source": "https://www.swpc.noaa.gov/noaa-scales-explanation",
+    "needs_verification": false
+  },
+  {
+    "id": "noaa-s-scale",
+    "title": "NOAA Solar Radiation Storm Scale (S-scale)",
+    "summary": "NOAA classifies solar radiation storms on a scale of S1 to S5. S1 (minor) corresponds to a proton flux >= 10 pfu (particles/cm²/s/sr) at >= 10 MeV as measured by GOES. S5 (extreme) is >= 100,000 pfu.",
+    "source": "https://www.swpc.noaa.gov/noaa-scales-explanation",
+    "needs_verification": false
+  },
+  {
+    "id": "noaa-g-scale",
+    "title": "NOAA Geomagnetic Storm Scale (G-scale)",
+    "summary": "NOAA classifies geomagnetic storms on a scale of G1 to G5. G1 (minor) corresponds to Kp >= 5. G5 (extreme) corresponds to Kp = 9. The Kp index is a global measure of geomagnetic activity measured on a 0-9 scale.",
+    "source": "https://www.swpc.noaa.gov/noaa-scales-explanation",
+    "needs_verification": false
+  },
+  {
+    "id": "dst-index",
+    "title": "Dst (Disturbance Storm Time) Index",
+    "summary": "The Dst index is a measure of the intensity of the globally symmetrical equatorial electrojet (ring current). Values below -50 nT indicate moderate geomagnetic storms. Values below -100 nT indicate intense storms. Provided by the World Data Center for Geomagnetism, Kyoto.",
+    "source": "https://wdc.kugi.kyoto-u.ac.jp/dstdir/",
+    "needs_verification": false
+  },
+  {
+    "id": "goes-xray",
+    "title": "GOES X-ray Flux Classification",
+    "summary": "GOES satellites measure solar X-ray flux in the 0.1-0.8 nm band. Flare classes: A (<1e-7 W/m²), B (1e-7 to 1e-6), C (1e-6 to 1e-5), M (1e-5 to 1e-4), X (>=1e-4). M-class threshold is 1e-5 W/m².",
+    "source": "https://www.swpc.noaa.gov/phenomena/solar-flares-radio-blackouts",
+    "needs_verification": false
+  }
+]

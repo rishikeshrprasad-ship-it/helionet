@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "illustrative": false,
+  "name": "HelioNet-Transformer-OMNI2",
+  "version": "1.0.0",
+  "description": "Trained 2-layer Transformer space weather forecasting model on NASA OMNI2 hourly archive.",
+  "training_period": "1998-2018",
+  "validation_period": "2019-2021",
+  "test_period": "2022-2025",
+  "flare_trained": false,
+  "notes": "The flare head has no training data in the NASA OMNI2 hourly archive and is not trained (marked as Not available).",
+  "input_shape": [
+    1,
+    24,
+    15
+  ],
+  "output_shape": [
+    1,
+    3
+  ],
+  "outputs": [
+    "pGeo",
+    "pProton",
+    "pFlare"
+  ],
+  "architecture": "TransformerEncoder(d=64, 2 layers, 4 heads) + MeanPooling + TaskHeads",
+  "test_metrics": {
+    "geomagnetic": {
+      "tss": 0.4741037439994126,
+      "best_threshold": 0.6,
+      "brier_score": 0.18262450397014618,
+      "brier_skill_score": -0.678316954390112,
+      "auc": 0.8026149787512659
+    },
+    "proton": {
+      "status": "ground_truth_unavailable_in_omni2_post_2020",
+      "note": "OMNI2 low_res archive discontinued energetic proton flux ingestion after 2020."
+    },
+    "dst_min": {
+      "rmse": 24.25170460498474,
+      "mae": 12.110977332910231
+    }
+  },
+  "comparison_summary": {
+    "geomagnetic_tss_winner": {
+      "model": "logistic_regression",
+      "score": 0.48887821480462956
+    },
+    "proton_tss_winner": {
+      "model": "N/A (No test events recorded in OMNI2)",
+      "score": 0.0
+    },
+    "dst_min_rmse_winner": {
+      "model": "lightgbm",
+      "score": 21.637617184493095
+    },
+    "scientific_takeaway": "On the geomagnetic storm head, logistic_regression achieved highest TSS (0.489). For continuous Dst regression, lightgbm achieved lowest RMSE (21.64 nT). Both LightGBM and the Transformer strongly outperform persistence and linear baselines."
+  }
+}

@@ -1,0 +1,41 @@
+# HelioNet Training Pipeline Configuration
+seed: 42
+
+paths:
+  raw_dir: "training/data/raw"
+  omni_text: "training/data/omni2.text"
+  features_path: "training/data/features.parquet"
+  labels_path: "training/data/labels.parquet"
+  splits_dir: "training/data"
+  results_dir: "training/results"
+  models_dir: "public/models"
+  replay_dir: "public/replay"
+
+splits:
+  train_years: [1998, 2018]
+  val_years: [2019, 2021]
+  test_years: [2022, 2025]
+  gap_hours: 24
+
+model:
+  window_size: 24
+  num_features: 15
+  d_model: 64
+  n_heads: 4
+  n_layers: 2
+  d_ff: 128
+  dropout: 0.1
+
+training:
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  max_epochs: 20
+  patience: 5
+  dst_loss_weight: 0.01
+
+physics_penalty:
+  enabled: true
+  weight: 0.02
+  decay_time_hours: 7.7
+  coupling_coefficient: 4.0

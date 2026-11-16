@@ -1,0 +1,100 @@
+{
+  "inUse": [
+    {
+      "name": "NOAA SWPC",
+      "licence": "Public domain",
+      "usage": "Operational R-scale, S-scale, and G-scale space weather thresholds and event schemas."
+    },
+    {
+      "name": "NASA Science Sun 3D model",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/models/sun.glb",
+      "usage": "Solar photosphere body in the orbit and solar system scenes (Meshopt/WebP copy)."
+    },
+    {
+      "name": "NASA Science Earth with Clouds",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/models/earth.glb",
+      "usage": "Earth globe with cloud albedo and surface normal map in the orbit and solar system scenes."
+    },
+    {
+      "name": "NASA SVS Moon 3D models",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/models/moon.glb",
+      "usage": "LRO CGI Moon 3D globe in the orbit scene (simplified Meshopt/WebP copy)."
+    },
+    {
+      "name": "NASA 3D Resources Satellite Kit",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/models/satellite.glb",
+      "usage": "Instanced 120-satellite constellation bus, solar arrays, and radio antenna parts."
+    },
+    {
+      "name": "NASA Science Advanced Composition Explorer (ACE)",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/models/ace.glb",
+      "usage": "ACE solar wind monitor at Sun-Earth L1 point in the solar system view."
+    },
+    {
+      "name": "NASA / JPL-Caltech Juno Spacecraft",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/models/juno.glb",
+      "usage": "Juno probe model placed in Jovian orbit in the solar system view."
+    },
+    {
+      "name": "NASA Science Uranus 3D model",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/models/uranus.glb",
+      "usage": "Uranus planetary body in the solar system view."
+    },
+    {
+      "name": "NASA Curiosity rover model",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/models/rover.glb",
+      "usage": "Rover 01 in the lunar surface scene (optimized Meshopt/WebP copy)."
+    },
+    {
+      "name": "NASA SVS Deep Star Maps 2020",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/space/milkyway.jpg",
+      "usage": "Deep-space celestial background inside-out sphere in sRGB color space."
+    },
+    {
+      "name": "NASA Earth Observatory Black Marble 2016",
+      "licence": "Public domain (NASA policy)",
+      "file": "public/assets/space/earth_night.jpg",
+      "usage": "Earth nighttime city lights blended on the unlit night side."
+    },
+    {
+      "name": "Solar System Scope Planetary Maps",
+      "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "source": "https://www.solarsystemscope.com/textures/",
+      "files": [
+        "public/assets/space/mercury.jpg",
+        "public/assets/space/venus.jpg",
+        "public/assets/space/mars.jpg",
+        "public/assets/space/jupiter.jpg",
+        "public/assets/space/saturn.jpg",
+        "public/assets/space/saturn_ring.png",
+        "public/assets/space/neptune.jpg"
+      ],
+      "usage": "Planetary surface albedo textures and Saturn ring alpha texture."
+    },
+    {
+      "name": "GEBCO-derived Earth Elevation / Height Map",
+      "licence": "Open Data / Educational attribution",
+      "source": "https://sbcode.net/threejs/bump-mapping/",
+      "file": "public/assets/space/earth_height.jpg",
+      "usage": "Earth topographic bump map for terrain surface relief."
+    }
+  ],
+  "notInUse": [
+    {
+      "name": "NASA Blue Marble Next Generation",
+      "credit": "NASA Earth Observatory",
+      "licence": "Public domain",
+      "expectedFile": "public/assets/models/earth_relief.jpg",
+      "usage": "Procedural shader and earth.glb normal maps provide primary relief."
+    }
+  ]
+}

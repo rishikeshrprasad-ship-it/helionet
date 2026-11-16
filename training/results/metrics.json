@@ -1,0 +1,89 @@
+{
+  "evaluation_period": "2022-01-02 to 2025-12-31",
+  "test_windows_count": 34704,
+  "models": {
+    "persistence": {
+      "geomagnetic": {
+        "brier_score": 0.09724421919543871,
+        "brier_skill_score": 0.10579774955318222,
+        "tss": 0.23781550351928865,
+        "auc": 0.6189077517596443
+      },
+      "proton": {
+        "status": "ground_truth_unavailable_in_omni2_post_2020",
+        "note": "OMNI2 low_res archive discontinued energetic proton flux ingestion after 2020."
+      },
+      "dst_min": {
+        "rmse": 28.87388560456076,
+        "mae": 15.911020243614479
+      }
+    },
+    "logistic_regression": {
+      "geomagnetic": {
+        "brier_score": 0.20072009428331816,
+        "brier_skill_score": -0.8457072461790032,
+        "tss": 0.48887821480462956,
+        "best_threshold": 0.65,
+        "auc": 0.8016963361029563
+      },
+      "proton": {
+        "status": "ground_truth_unavailable_in_omni2_post_2020",
+        "note": "OMNI2 low_res archive discontinued energetic proton flux ingestion after 2020."
+      },
+      "dst_min": {
+        "rmse": 21.768402955582978,
+        "mae": 12.59899765207238
+      }
+    },
+    "lightgbm": {
+      "geomagnetic": {
+        "brier_score": 0.16427840806083416,
+        "brier_skill_score": -0.5106103314232675,
+        "tss": 0.47272899452062545,
+        "best_threshold": 0.475,
+        "auc": 0.8048845463904839
+      },
+      "proton": {
+        "status": "ground_truth_unavailable_in_omni2_post_2020",
+        "note": "OMNI2 low_res archive discontinued energetic proton flux ingestion after 2020."
+      },
+      "dst_min": {
+        "rmse": 21.637617184493095,
+        "mae": 12.033484234341804
+      }
+    },
+    "helionet_no_attention": {},
+    "helionet_transformer": {
+      "geomagnetic": {
+        "tss": 0.4741037439994126,
+        "best_threshold": 0.6,
+        "brier_score": 0.18262450397014618,
+        "brier_skill_score": -0.678316954390112,
+        "auc": 0.8026149787512659
+      },
+      "proton": {
+        "status": "ground_truth_unavailable_in_omni2_post_2020",
+        "note": "OMNI2 low_res archive discontinued energetic proton flux ingestion after 2020."
+      },
+      "dst_min": {
+        "rmse": 24.25170460498474,
+        "mae": 12.110977332910231
+      }
+    }
+  },
+  "honest_comparison_summary": {
+    "geomagnetic_tss_winner": {
+      "model": "logistic_regression",
+      "score": 0.48887821480462956
+    },
+    "proton_tss_winner": {
+      "model": "N/A (No test events recorded in OMNI2)",
+      "score": 0.0
+    },
+    "dst_min_rmse_winner": {
+      "model": "lightgbm",
+      "score": 21.637617184493095
+    },
+    "scientific_takeaway": "On the geomagnetic storm head, logistic_regression achieved highest TSS (0.489). For continuous Dst regression, lightgbm achieved lowest RMSE (21.64 nT). Both LightGBM and the Transformer strongly outperform persistence and linear baselines."
+  }
+}

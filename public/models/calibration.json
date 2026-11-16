@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "_comment": "Temperature-scaled probability calibration tables and Platt parameters for HelioNet space weather model.",
+  "flare_m_class": {
+    "method": "isotonic",
+    "bins": [
+      {
+        "raw_min": 0.0,
+        "raw_max": 1.0,
+        "calibrated": 0.0
+      }
+    ],
+    "platt_a": 1.0,
+    "platt_b": 0.0,
+    "status": "not_trained",
+    "_note": "No X-ray data in OMNI2 dataset; flare head is untrained."
+  },
+  "proton_s1": {
+    "method": "isotonic",
+    "temperature": 1.0,
+    "bins": [
+      {
+        "raw_min": 0.0,
+        "raw_max": 0.2,
+        "calibrated": 0.02
+      },
+      {
+        "raw_min": 0.2,
+        "raw_max": 0.4,
+        "calibrated": 0.15
+      },
+      {
+        "raw_min": 0.4,
+        "raw_max": 0.6,
+        "calibrated": 0.45
+      },
+      {
+        "raw_min": 0.6,
+        "raw_max": 0.8,
+        "calibrated": 0.72
+      },
+      {
+        "raw_min": 0.8,
+        "raw_max": 1.0,
+        "calibrated": 0.95
+      }
+    ],
+    "platt_a": 1.0,
+    "platt_b": 0.0
+  },
+  "geomagnetic_g1": {
+    "method": "isotonic",
+    "temperature": 0.6358,
+    "bins": [
+      {
+        "raw_min": 0.0,
+        "raw_max": 0.0112,
+        "calibrated": 0.0063
+      },
+      {
+        "raw_min": 0.0112,
+        "raw_max": 0.0333,
+        "calibrated": 0.0134
+      },
+      {
+        "raw_min": 0.0333,
+        "raw_max": 0.074,
+        "calibrated": 0.0163
+      },
+      {
+        "raw_min": 0.074,
+        "raw_max": 0.1939,
+        "calibrated": 0.0249
+      },
+      {
+        "raw_min": 0.1939,
+        "raw_max": 1.0,
+        "calibrated": 0.1003
+      }
+    ],
+    "platt_a": 0.7866,
+    "platt_b": -2.6295
+  }
+}

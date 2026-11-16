@@ -1,0 +1,29 @@
+{
+  "train": {
+    "rows": 183916,
+    "geo_events": 19814,
+    "geo_rate": 0.1077,
+    "proton_events": 6778,
+    "proton_rate": 0.0369,
+    "dst_min": -422.0,
+    "dst_mean": -25.759161791252527
+  },
+  "val": {
+    "rows": 26085,
+    "geo_events": 841,
+    "geo_rate": 0.0322,
+    "proton_events": 0,
+    "proton_rate": 0.0,
+    "dst_min": -105.0,
+    "dst_mean": -16.540310523289246
+  },
+  "test": {
+    "rows": 34727,
+    "geo_events": 4300,
+    "geo_rate": 0.1238,
+    "proton_events": 0,
+    "proton_rate": 0.0,
+    "dst_min": -406.0,
+    "dst_mean": -27.27203616782331
+  }
+}

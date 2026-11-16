@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "event": "Feb 2022 storm (illustrative replay)",
+  "event_id": "feb2022",
+  "note": "Documented outcomes from published aerospace and space weather publications.",
+  "documented_outcome": [
+    {
+      "field": "Peak Kp Index",
+      "value": "5.3 (G1 Storm)",
+      "source": "https://www.swpc.noaa.gov/products/planetary-k-index#NOAA",
+      "domain": "space"
+    },
+    {
+      "field": "Dst Minimum",
+      "value": "-66 nT",
+      "source": "https://wdc.kugi.kyoto-u.ac.jp/dstdir/#Kyoto-WDC",
+      "domain": "space"
+    },
+    {
+      "field": "Max Solar Wind Speed",
+      "value": "690 km/s",
+      "source": "https://www.ngdc.noaa.gov/dscovr/#NOAA-NCEI",
+      "domain": "space"
+    },
+    {
+      "field": "Peak Atmospheric Density Increase",
+      "value": "Up to 50% above baseline",
+      "source": "https://doi.org/10.1029/2022SW003070",
+      "domain": "satellite"
+    },
+    {
+      "field": "Satellites Deorbited / Lost",
+      "value": "38 of 49 Starlink Group 4-7",
+      "source": "https://doi.org/10.1029/2022SW003070#SpaceX-Report",
+      "domain": "satellite"
+    },
+    {
+      "field": "Lunar Surface Dose Baseline Rate",
+      "value": "0.12 mGy/h",
+      "source": "https://crater.unh.edu/#LRO-CRaTER",
+      "domain": "lunar"
+    },
+    {
+      "field": "Rover Radiation Shelter Destination",
+      "value": null,
+      "source": "",
+      "domain": "lunar"
+    }
+  ]
+}

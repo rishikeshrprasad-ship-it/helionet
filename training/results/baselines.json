@@ -1,0 +1,59 @@
+{
+  "climatology": {
+    "geo_rate": 0.10773396550599186,
+    "proton_rate": 0.03685378107396855,
+    "dst_mean": -25.759161791252527,
+    "clim_brier_geo": 0.10874969185869016,
+    "clim_brier_proton": null
+  },
+  "persistence": {
+    "geomagnetic": {
+      "brier_score": 0.09724421919543871,
+      "brier_skill_score": 0.10579774955318222,
+      "tss": 0.23781550351928865,
+      "auc": 0.6189077517596443
+    },
+    "proton": {
+      "status": "ground_truth_unavailable_in_omni2_post_2020",
+      "note": "OMNI2 low_res archive discontinued energetic proton flux ingestion after 2020."
+    },
+    "dst_min": {
+      "rmse": 28.87388560456076,
+      "mae": 15.911020243614479
+    }
+  },
+  "logistic_regression": {
+    "geomagnetic": {
+      "brier_score": 0.20072009428331816,
+      "brier_skill_score": -0.8457072461790032,
+      "tss": 0.48887821480462956,
+      "best_threshold": 0.65,
+      "auc": 0.8016963361029563
+    },
+    "proton": {
+      "status": "ground_truth_unavailable_in_omni2_post_2020",
+      "note": "OMNI2 low_res archive discontinued energetic proton flux ingestion after 2020."
+    },
+    "dst_min": {
+      "rmse": 21.768402955582978,
+      "mae": 12.59899765207238
+    }
+  },
+  "lightgbm": {
+    "geomagnetic": {
+      "brier_score": 0.16427840806083416,
+      "brier_skill_score": -0.5106103314232675,
+      "tss": 0.47272899452062545,
+      "best_threshold": 0.475,
+      "auc": 0.8048845463904839
+    },
+    "proton": {
+      "status": "ground_truth_unavailable_in_omni2_post_2020",
+      "note": "OMNI2 low_res archive discontinued energetic proton flux ingestion after 2020."
+    },
+    "dst_min": {
+      "rmse": 21.637617184493095,
+      "mae": 12.033484234341804
+    }
+  }
+}

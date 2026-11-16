@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "event": "May 2024 Extreme Geomagnetic Storm (Gannon Storm / G5)",
+  "event_id": "may2024",
+  "note": "Documented outcomes from NOAA SWPC and international geophysical observatories.",
+  "documented_outcome": [
+    {
+      "field": "Peak Kp Index",
+      "value": "9.0 (G5 Extreme Storm)",
+      "source": "https://www.swpc.noaa.gov/news/g5-conditions-observed#NOAA",
+      "domain": "space"
+    },
+    {
+      "field": "Dst Minimum",
+      "value": "-412 nT (Strongest since Halloween 2003)",
+      "source": "https://wdc.kugi.kyoto-u.ac.jp/dstdir/#Kyoto-WDC",
+      "domain": "space"
+    },
+    {
+      "field": "Max Solar Wind Speed",
+      "value": "820 km/s",
+      "source": "https://www.swpc.noaa.gov/products/real-time-solar-wind#DSCOVR",
+      "domain": "space"
+    },
+    {
+      "field": "Interplanetary Magnetic Field Bz",
+      "value": "-50 nT",
+      "source": "https://www.swpc.noaa.gov/products/ace-real-time-solar-wind#ACE",
+      "domain": "space"
+    },
+    {
+      "field": "Satellites Lost in Low Orbit",
+      "value": "0 (Automated station-keeping maneuvers succeeded)",
+      "source": "https://www.reuters.com/technology/space/musks-starlink-satellites-under-pressure-due-solar-storm-2024-05-11/",
+      "domain": "satellite"
+    },
+    {
+      "field": "Power Grid Transformer GIC Currents",
+      "value": "Exceeded 150 A in Scandinavian grid",
+      "source": "https://www.fingrid.fi/en/pages/news/news/2024/the-solar-storm-caused-no-disturbances-in-the-finnish-main-grid/",
+      "domain": "satellite"
+    },
+    {
+      "field": "Lunar South Pole Solar Proton Event Flux",
+      "value": "125 pfu (S2 Radiation Storm)",
+      "source": "https://www.swpc.noaa.gov/products/goes-proton-flux#GOES-16",
+      "domain": "lunar"
+    },
+    {
+      "field": "Lunar Shelter Allocation Feasibility",
+      "value": null,
+      "source": "",
+      "domain": "lunar"
+    }
+  ]
+}
